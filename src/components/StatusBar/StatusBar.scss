@@ -1,0 +1,22 @@
+.StatusBar {
+  display: flex;
+  justify-content: space-between;
+
+  &__time {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--textBlack);
+    margin-left: 15px;
+    margin-top: -7px;
+  }
+  &__icons {
+    display: flex;
+    gap: 5px;
+    margin-right: -5px;
+  }
+  &__icon {
+    height: 12px;
+    width: auto;
+  }
+}

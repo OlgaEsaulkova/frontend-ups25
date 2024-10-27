@@ -1,0 +1,53 @@
+@font-face {
+  src: url("./fonts/Gilroy-Semibold.woff2") format("woff2");
+  font-family: "Gilroy";
+  font-weight: 600;
+}
+@font-face {
+  src: url("./fonts/Gilroy-Bold.woff2") format("woff2");
+  font-family: "Gilroy";
+  font-weight: 700;
+}
+@font-face {
+  src: url("./fonts/Mont-SemiBold.woff2") format("woff2");
+  font-family: "Mont";
+  font-weight: 700;
+}
+@font-face {
+  src: url("./fonts/Mont-Bold.woff2") format("woff2");
+  font-family: "Mont";
+  font-weight: 800;
+}
+@font-face {
+  src: url("./fonts/Mont-Regular.woff2") format("woff2");
+  font-family: "Mont";
+  font-weight: 400;
+}
+
+:root {
+  --font-family: "Gilroy", sans-serif;
+  --second-family: "Mont", sans-serif;
+  --btnBlue: #2b56f6;
+  --btnRed: #eb5757;
+  --textBlack: #252525;
+  --textGray: #979797;
+  --bgBlock: #f6f6f6;
+  --textWhite: #fff;
+  --bgGrey: #e6e6e6;
+  --bgWhite: #fff;
+  --gradient: linear-gradient(207deg, #000036 0%, #2b56f6 100%);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: var(--bgGrey);
+}

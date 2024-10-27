@@ -1,0 +1,26 @@
+.Back {
+  margin-top: 33px;
+  &__block {
+    display: flex;
+    align-items: center;
+  }
+  &__icon {
+    background: var(--bgBlock);
+    border-radius: 100%;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  &__img {
+  }
+  &__title {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 140%;
+    margin-left: 40px;
+  }
+}

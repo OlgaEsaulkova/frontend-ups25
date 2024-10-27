@@ -1,0 +1,25 @@
+.Details {
+  margin-top: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--textGray);
+  }
+  &__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+  }
+}

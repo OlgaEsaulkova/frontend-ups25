@@ -1,0 +1,37 @@
+.Information {
+  &__info {
+    display: flex;
+    margin-top: 24px;
+  }
+  &__type {
+    margin-left: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--textGray);
+    padding: 0;
+  }
+  &__item {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  &__block {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: var(--bgBlock);
+    margin-top: 8px;
+  }
+  &__block_m {
+    margin: 18px 0 24px;
+  }
+  &__sum{
+    margin-left: auto;
+  }
+}

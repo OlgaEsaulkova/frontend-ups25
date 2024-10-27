@@ -1,0 +1,22 @@
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  margin-top: 79px;
+  &__block {
+    display: flex;
+    gap: 30px;
+    padding: 16px;
+    background-color: var(--bgWhite);
+    box-shadow: 0 14px 35px 0 rgba(40, 48, 63, 0.08);
+    border-radius: 40px;
+  }
+  &__block-center{
+    padding: 18px 41px;
+  }
+  &__icon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+  }
+}

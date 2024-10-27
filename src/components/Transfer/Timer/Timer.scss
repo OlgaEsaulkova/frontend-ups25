@@ -1,0 +1,27 @@
+.Timer {
+    margin-top: auto;
+    margin-bottom: 18px;
+  &__block {
+    display: flex;
+    gap: 14px;
+  }
+  &__icon {
+    width: 44px;
+    height: 44px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+  }
+  &__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--textGray);
+  }
+}

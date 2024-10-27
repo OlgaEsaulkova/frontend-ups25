@@ -1,0 +1,25 @@
+.Tick {
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  &__icon {
+    width: 88px;
+    height: 88px;
+  }
+  &__info {
+    text-align: center;
+  }
+  &__title {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 140%;
+  }
+  &__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--textGray);
+  }
+}
